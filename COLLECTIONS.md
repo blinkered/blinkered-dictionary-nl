@@ -12,15 +12,15 @@ collection rather than reuse its record only has to put the file back where the 
 
 | collection | tokens | what it is | where it came from |
 | --- | ---: | --- | --- |
-| `fw2` | 1,346,161,519 | FineWeb-2 Dutch — a web crawl nobody here made | [fineweb2-nld.parquet](https://huggingface.co/datasets/HuggingFaceFW/fineweb-2/resolve/main/data/nld_Latn/train/000_00000.parquet) |
-| `wiki:nl` | 372,843,070 | Dutch Wikipedia — modern encyclopedic prose | [nlwiki.xml.bz2](https://dumps.wikimedia.org/nlwiki/latest/nlwiki-latest-pages-articles.xml.bz2) |
-| `ia` | 104,726,179 | Internet Archive Dutch books — literature, and the register a newspaper never reaches | [archive-nl](https://archive.org/search?query=mediatype%3Atexts+AND+language%3A%22Dutch%22) |
-| `gut` | 51,304,678 | Project Gutenberg Dutch, 1,114 texts | [gutenberg-nl](https://www.gutenberg.org/cache/epub/feeds/pg_catalog.csv) |
-| `wikisource:nl` | 2,352,713 | Dutch Wikisource — same Wikimedia family, so it corroborates rather than counts | [nlwikisource.xml.bz2](https://dumps.wikimedia.org/nlwikisource/latest/nlwikisource-latest-pages-articles.xml.bz2) |
-| `lz:nld_news_2024_1M` | 1,285,664 | Leipzig nld_news_2024_1M — modern news, cited by the page each sentence came from | [nld_news_2024_1M](https://downloads.wortschatz-leipzig.de/corpora/nld_news_2024_1M.tar.gz) |
-| `lz:nld_news_2023_1M` | 1,152,379 | Leipzig nld_news_2023_1M — modern news, cited by the page each sentence came from | [nld_news_2023_1M](https://downloads.wortschatz-leipzig.de/corpora/nld_news_2023_1M.tar.gz) |
-| `tat` | 1,027,659 | Tatoeba Dutch — contemporary and conversational | [nld_sentences.tsv](https://downloads.tatoeba.org/exports/per_language/nld/nld_sentences.tsv.bz2) |
-| `ebible:nld` | 619,811 | Statenvertaling — a family nothing else here belongs to | [nld_vpl.txt](https://ebible.org/Scriptures/nld_vpl.zip) |
+| `fw2` | 1,346,161,519 |  | — |
+| `wiki:nl` | 372,843,070 |  | — |
+| `ia` | 227,439,144 | Internet Archive Dutch books — literature, and the register a newspaper never reaches | [archive-nl](https://archive.org/search?query=mediatype%3Atexts+AND+language%3A%22Dutch%22) |
+| `gut` | 51,304,678 |  | — |
+| `wikisource:nl` | 2,352,713 |  | — |
+| `lz:nld_news_2024_1M` | 1,285,664 |  | — |
+| `lz:nld_news_2023_1M` | 1,152,379 |  | — |
+| `tat` | 1,027,659 |  | — |
+| `ebible:nld` | 619,811 |  | — |
 
 Totals are playable tokens after folding, not bytes. A collection missing from this table was
 never scanned; one present with no link was fetched by hand and its path is given instead.
